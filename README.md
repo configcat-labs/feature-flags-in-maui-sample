@@ -22,8 +22,8 @@ The two cases can be seen in this screenshot:
 
 ## Learn more
 
-Read more about .NET MAUI **[here](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui)**
-Read more about **[setting up .NET MAUI](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro)**
+- Read more about .NET MAUI **[here](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui)**
+- Read more about **[setting up .NET MAUI](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro)**
 
 [**ConfigCat**](https://configcat.com) also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/)
 
