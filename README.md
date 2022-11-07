@@ -1,10 +1,10 @@
 # ConfigCat Feature Flags with .NET MAUI
 
-The app is a simple page that enables users to vote on a photo by assigning grades from 1 to 10. Using [ConfigCat's](https://configcat.com/) feature flag services, the application cointains a feature flag that is meant to enable and disable the voting feature of the application. When disabled, users see an error message.
-
 The sample app in this repository is a single page application that displays a picture of [ConfigCat's](https://configcat.com/) cat logo. In order to demonstrate the usage of feature flags, the app is connected to the ConfigCat feature flag service via an SDK and SDK key. When the flag is turned on, the cat is displayed. Once the flag is turned off, the cat dissapears and a new message is displayed to the user.
 
 The two cases can be seen in this screenshot:
+
+![Flag on and off](/flag_on_off.png)
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ The two cases can be seen in this screenshot:
 - Install ConfigCat SDK by using `dotnet add package ConfigCat.Client --version 6.5.3` in the project folder (ex. mauiExample/mauiExample)
 - Open project in Visual Studio
 - Run on Desktop
-- Run on Android (optional). More information **[https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/device-setup]()**
+- Run on Android (optional). **[More information](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/device-setup)**
 
 ## Learn more
 
