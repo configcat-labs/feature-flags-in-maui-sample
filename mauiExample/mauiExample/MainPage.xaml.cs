@@ -3,15 +3,15 @@ using ConfigCat.Client;
 public partial class MainPage : ContentPage
 {
 	int count = 0;
-    bool demoSwitch = false;
+    bool seeCats = false;
  
     public MainPage()
 	{
 
 		InitializeComponent();
 
-        var client = new ConfigCatClient("8z7aCC-DZEaPwUCnitpksg/TbJ8oi7sMUynCb8MxtTUDw");
-        demoSwitch = client.GetValue("demoSwitch", false);
+        var client = new ConfigCatClient("YOUR-SDK-KEY");
+        seeCats = client.GetValue("seeCats", false);
 
         buttonLogic();
 
@@ -20,7 +20,7 @@ public partial class MainPage : ContentPage
 
     public void buttonLogic()
     {
-        if (demoSwitch == true)
+        if (seeCats == true)
         {
             mainLabel.Text = $"Here's the cute ConfigCat!";
             mainImage.Source = ImageSource.FromFile("cat_red.png");
